@@ -1,7 +1,7 @@
 #!/bin/bash
 
 maxhistory=8 # for 16k context max
-apikey="$LOCAL_API_KEY"
+apikey="$API_KEY"
 baseurl="$BASEURL"
 query='Open reddit as website, go to LocalLlama subreddit, sort by top posts'
 [ -n "$1" ] && query="$*"
